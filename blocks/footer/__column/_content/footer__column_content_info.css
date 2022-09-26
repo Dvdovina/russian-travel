@@ -1,0 +1,10 @@
+.footer__column_content_info {
+    padding-left: 48px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__column_content_info {
+      padding-left: 24px;
+    }
+
+}

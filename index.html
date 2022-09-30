@@ -11,18 +11,20 @@
 <body>
   <div class="page">
     <div class="header">
-      <img class="header__logo" src="./images/logo/russia-logo.png" alt="логотип Россия">
-      <div class="header__lang-links">
-        <a class="header__lang-link">Ru</a>
-        <a class="header__lang-link">En</a>
-      </div>
+      <img class="header__logo" src="./images/logo/russia-logo.png" alt="Логотип Россия.">
+      <ul class="header__lang-links">
+        <li><a class="header__lang-link header__lang-link_state_active" href="#">Ru</a></li>
+        <li><a class="header__lang-link" href="#">En</a></li>
+      </ul>
     </div>
     <main class="content">
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img class="lead__image" src="./images/header-image.jpg" alt="путешествие в поезде">
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <div class="lead__image-container">
+          <img class="lead__image" src="./images/header-image.jpg" alt="Путешествие в поезде.">
+          <p class="lead__caption">ваша полка — верхняя</p>
+        </div>
       </section>
       <section class="intro">
         <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -149,9 +151,11 @@
       <section class="cover" aria-label="cover">
         <a target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
           <div class="cover__overlay">
-            <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
-            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
-              электричках.</p>
+            <div class="cover__text">
+              <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
+              <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
+                электричках.</p>
+            </div>
           </div>
         </a>
       </section>
@@ -174,4 +178,5 @@
     </footer>
   </div>
 </body>
+
 </html>

@@ -1,0 +1,9 @@
+.place__link-title {
+    color: #aaaaaa;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 12px;
+    margin: 0;
+    text-transform: uppercase;
+}

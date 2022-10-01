@@ -1,8 +1,8 @@
 .intro__list-text {
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
     list-style-type: none;
     margin: 0;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
-    color: white;
 }

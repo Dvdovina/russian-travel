@@ -6,15 +6,9 @@
     margin: 0;
     max-width: 560px;
     text-align: center;
-    transition: opacity 0.5s ease;
     width: 100%;
     z-index: 20;
 }
-
-.cover__title:hover {
-    opacity: 0.8;
-}
-
 
 @media (max-width: 767px) {
     .cover__title {

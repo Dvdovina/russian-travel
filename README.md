@@ -10,5 +10,5 @@
 
 # Ссылка на сайт: 
 
-[GitHub Pages](https://dvdovina.github.io/russian-travel/).
+[GitHub Pages](https://dvdovina.github.io/russian-travel/)
 
